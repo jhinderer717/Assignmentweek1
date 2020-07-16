@@ -10,13 +10,13 @@
     cd ..
 
 # 4 - What is a quick way to create a new folder?
-    In Finder, select File, New Folder, or shift command N.
+    In terminal, enter 'mkdir (folder name)'
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
     Nothing outputs when listing an empty folder. When running command ls when a folder has files, the files are shown.
 
 # 6 - What is a quick way to create a new file?
-    Command shift S to save as, then name the file
+    In terminal, enter 'touch (file name)'
 
 # 7 - Run 'git --version' in your terminal. What is the output?
     'git version 2.24.3 (Apple Git-128)'
@@ -25,7 +25,7 @@
     One would use 'git status' to check if a file has been modified.
 
 # 9 - What does the command 'git add .' do?
-    Git add adds a change in the working directory to the staging area
+    Git add adds a change in the working directory (atom, or our computer) to the staging area (Git)
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
     'git push -u origin master'
